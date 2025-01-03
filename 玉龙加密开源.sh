@@ -2,6 +2,7 @@
 #!/system/bin/sh
 # 在这里添加你希望在下载完成并验证通过后执行的其他命令或脚本
 
+
 echo -e "\033[2J\033[H"
 color_code=$((1 + RANDOM % 7))
 case $color_code in
